@@ -1,3 +1,7 @@
+# Storm Kaefer's Website Portfolio
+
+Below is the original README.
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer Jekyll Version](http://startbootstrap.com/template-overviews/freelancer/)
 
 [Freelancer Jekyll Version](http://startbootstrap.com/template-overviews/1-col-portfolio/) is a Jekyll build for the Freelancer portfolio theme based on [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
@@ -24,4 +28,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll/blob/gh-pages/LICENSE) license.
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll/blob/gh-pages/LICENSE) license.
