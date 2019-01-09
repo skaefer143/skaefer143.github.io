@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "CAST - Course Assignment Super Tool"
+date:   2018-04-02
+img: img/portfolio/CAST-compressed.png
+modalID: modalCAST
+category: University of Alberta
+---
+In CMPUT 401 at the University of Alberta, I worked alongside 4 other students
+to create a web application named CAST for the Faculty of Nursing. It was
+developed with Django as framework, using PostgreSQL as a database.
+
+The application is a course assignment system, where administrators can import
+courses, sections, and faculty members, and be able to assign faculty members
+to courses based on a preference assignment algorithm.
+
+To view a demonstration of all features developed during the course, please
+watch the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_AZMiOHATrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I was involved in programming the spreadsheet import feature and course
+assignment view, as well as communicating with clients, setting up a server
+to host the application, and initializing continuous integration with Travis CI.

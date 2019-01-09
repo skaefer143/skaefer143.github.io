@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Freelancer Theme CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/3.3.7/css/freelancer.min.css">
+    <link rel="stylesheet" href="../css/freelancer.css">
 
     <link rel="canonical" href="http://localhost:4000/design/2016/02/01/submarine.html">
 
@@ -61,9 +61,11 @@
                 <li class="page-scroll">
                     <a href="#about">About</a>
                 </li>
+                <!--
                 <li class="page-scroll">
                     <a href="#contact">Contact</a>
                 </li>
+                -->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -101,57 +103,24 @@
             <div class="row">
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCabin" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalReviewBoard" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/cabin.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/reviewboard-logo.png" class="img-responsive" alt="" style="margin: auto;">
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCake" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalCAST" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/cake.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCircus" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/img/portfolio/circus.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalGame" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/img/portfolio/game.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalSafe" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/img/portfolio/safe.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/CAST-compressed.png" class="img-responsive" alt="" style="margin: auto;">
                         </a>
                     </div>
                 
@@ -162,7 +131,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/submarine.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/submarine.png" class="img-responsive" alt="" style="margin: auto;">
                         </a>
                     </div>
                 
@@ -185,6 +154,7 @@
                     <p>When I'm not having fun experimenting with web technologies, I'm playing drums in bands,
                     creating music, going on hikes, and enjoying life.
                     Also probably fixing my grandmother's printer, that happens from time to time.</p>
+                    <p>Reach me at <a href = "mailto: stormkaefer@gmail.com">stormkaefer@gmail.com</a>.</p>
                 </div>
             </div>
         </div>
@@ -245,7 +215,7 @@
 
 
     
-<div class="portfolio-modal modal fade" id="modalCabin" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalReviewBoard" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -257,21 +227,32 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Cabin</h2>
+                        <h2>Review Board</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                        Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+                        <img src="/img/portfolio/reviewboard-logo.png" class="img-responsive img-centered" alt="">
+                        [Review Board](review-board-link) is an open source web application, developed using Django, that
+I had the privilege of working on through [UCOSP](ucosp-link).
 
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
+Mentors guided us through completing different projects. I was a part of the
+Admin UI team, where I completed a project that dealt with replacing
+default Django selector widgets with a smarter, custom made widget built
+with Javascript, HTML, a Django backend, and the Javascript library selectize.js.
 
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
+[These](https://reviews.reviewboard.org/users/skaefer143/) are all the patches I've submitted towards Review Board.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zHv3n5SmNwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The video up above is my final demo video, and shows the final widgets in action.
+
+[review-board-link]: https://www.reviewboard.org/
+[ucosp-link]: http://ucosp.ca/about.html
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>Open Source Contribution
                                     </strong>
                             </li>
                             <li>Date:
-                                <strong>February 2016
+                                <strong>December 2018
                                     </strong>
                             </li>
                         </ul>
@@ -283,7 +264,7 @@ In the Jekyll version of Freelancer, each portfolio item is a separate post that
     </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="modalCake" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalCAST" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -295,135 +276,32 @@ In the Jekyll version of Freelancer, each portfolio item is a separate post that
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Cake</h2>
+                        <h2>CAST - Course Assignment Super Tool</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                        Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+                        <img src="/img/portfolio/CAST-compressed.png" class="img-responsive img-centered" alt="">
+                        In CMPUT 401 at the University of Alberta, I worked alongside 4 other students
+to create a web application named CAST for the Faculty of Nursing. It was
+developed with Django as framework, using PostgreSQL as a database.
 
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
+The application is a course assignment system, where administrators can import
+courses, sections, and faculty members, and be able to assign faculty members
+to courses based on a preference assignment algorithm.
 
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
+To view a demonstration of all features developed during the course, please
+watch the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_AZMiOHATrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I was involved in programming the spreadsheet import feature and course
+assignment view, as well as communicating with clients, setting up a server
+to host the application, and initializing continuous integration with Travis CI.
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>University of Alberta
                                     </strong>
                             </li>
                             <li>Date:
-                                <strong>February 2016
-                                    </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="modalCircus" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Circus</h2>
-                        <hr class="star-primary">
-                        <img src="/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                        Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
-
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
-                        <ul class="list-inline item-details">
-                            <li>Category:
-                                <strong>Design
-                                    </strong>
-                            </li>
-                            <li>Date:
-                                <strong>February 2016
-                                    </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="modalGame" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Game</h2>
-                        <hr class="star-primary">
-                        <img src="/img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                        Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
-
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
-                        <ul class="list-inline item-details">
-                            <li>Category:
-                                <strong>Design
-                                    </strong>
-                            </li>
-                            <li>Date:
-                                <strong>February 2016
-                                    </strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="modalSafe" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Safe</h2>
-                        <hr class="star-primary">
-                        <img src="/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                        Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
-
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
-                        <ul class="list-inline item-details">
-                            <li>Category:
-                                <strong>Design
-                                    </strong>
-                            </li>
-                            <li>Date:
-                                <strong>February 2016
+                                <strong>April 2018
                                     </strong>
                             </li>
                         </ul>
@@ -480,9 +358,6 @@ In the Jekyll version of Freelancer, each portfolio item is a separate post that
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<!-- Contact Form JavaScript -->
-<script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/jqBootstrapValidation.js"></script>
-<script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/contact_me.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/3.3.7/js/freelancer.min.js"></script>
 

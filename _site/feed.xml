@@ -5,87 +5,61 @@
     <description>Hey! I'm a recent Computing Science graduate from the University of Alberta. Check out some of the projects I've been a part of!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Jan 2019 16:38:25 -0700</pubDate>
-    <lastBuildDate>Tue, 08 Jan 2019 16:38:25 -0700</lastBuildDate>
+    <pubDate>Wed, 09 Jan 2019 15:48:36 -0700</pubDate>
+    <lastBuildDate>Wed, 09 Jan 2019 15:48:36 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Cabin</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>Review Board</title>
+        <description>&lt;p&gt;&lt;a href=&quot;review-board-link&quot;&gt;Review Board&lt;/a&gt; is an open source web application, developed using Django, that
+I had the privilege of working on through &lt;a href=&quot;ucosp-link&quot;&gt;UCOSP&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;Mentors guided us through completing different projects. I was a part of the
+Admin UI team, where I completed a project that dealt with replacing
+default Django selector widgets with a smarter, custom made widget built
+with Javascript, HTML, a Django backend, and the Javascript library selectize.js.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://reviews.reviewboard.org/users/skaefer143/&quot;&gt;These&lt;/a&gt; are all the patches I’ve submitted towards Review Board.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zHv3n5SmNwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The video up above is my final demo video, and shows the final widgets in action.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 06 Feb 2016 13:08:10 -0700</pubDate>
-        <link>http://localhost:4000/design/2016/02/06/cabin.html</link>
-        <guid isPermaLink="true">http://localhost:4000/design/2016/02/06/cabin.html</guid>
+        <pubDate>Mon, 03 Dec 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/open%20source%20contribution/2018/12/03/Review-Board.html</link>
+        <guid isPermaLink="true">http://localhost:4000/open%20source%20contribution/2018/12/03/Review-Board.html</guid>
         
         
-        <category>Design</category>
+        <category>Open Source Contribution</category>
         
       </item>
     
       <item>
-        <title>Cake</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>CAST - Course Assignment Super Tool</title>
+        <description>&lt;p&gt;In CMPUT 401 at the University of Alberta, I worked alongside 4 other students
+to create a web application named CAST for the Faculty of Nursing. It was
+developed with Django as framework, using PostgreSQL as a database.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;The application is a course assignment system, where administrators can import
+courses, sections, and faculty members, and be able to assign faculty members
+to courses based on a preference assignment algorithm.&lt;/p&gt;
 
+&lt;p&gt;To view a demonstration of all features developed during the course, please
+watch the video below:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_AZMiOHATrM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I was involved in programming the spreadsheet import feature and course
+assignment view, as well as communicating with clients, setting up a server
+to host the application, and initializing continuous integration with Travis CI.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 Feb 2016 13:08:10 -0700</pubDate>
-        <link>http://localhost:4000/design/2016/02/05/cake.html</link>
-        <guid isPermaLink="true">http://localhost:4000/design/2016/02/05/cake.html</guid>
+        <pubDate>Mon, 02 Apr 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/university%20of%20alberta/2018/04/02/CAST.html</link>
+        <guid isPermaLink="true">http://localhost:4000/university%20of%20alberta/2018/04/02/CAST.html</guid>
         
         
-        <category>Design</category>
-        
-      </item>
-    
-      <item>
-        <title>Circus</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
-
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 04 Feb 2016 13:08:10 -0700</pubDate>
-        <link>http://localhost:4000/design/2016/02/04/circus.html</link>
-        <guid isPermaLink="true">http://localhost:4000/design/2016/02/04/circus.html</guid>
-        
-        
-        <category>Design</category>
-        
-      </item>
-    
-      <item>
-        <title>Game</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
-
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 03 Feb 2016 13:08:10 -0700</pubDate>
-        <link>http://localhost:4000/design/2016/02/03/game.html</link>
-        <guid isPermaLink="true">http://localhost:4000/design/2016/02/03/game.html</guid>
-        
-        
-        <category>Design</category>
-        
-      </item>
-    
-      <item>
-        <title>Safe</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
-
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 02 Feb 2016 13:08:10 -0700</pubDate>
-        <link>http://localhost:4000/design/2016/02/02/safe.html</link>
-        <guid isPermaLink="true">http://localhost:4000/design/2016/02/02/safe.html</guid>
-        
-        
-        <category>Design</category>
+        <category>University of Alberta</category>
         
       </item>
     
