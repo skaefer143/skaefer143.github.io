@@ -3,6 +3,7 @@ layout: post
 title:  "Review Board"
 date:   2018-12-03
 img: img/portfolio/reviewboard-logo.png
+external_url: https://www.reviewboard.org
 modalID: modalReviewBoard
 category: Open Source Contribution
 ---
@@ -16,7 +17,7 @@ with Javascript, HTML, a Django backend, and the Javascript library selectize.js
 
 [These](https://reviews.reviewboard.org/users/skaefer143/) are all the patches I've submitted towards Review Board.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zHv3n5SmNwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/zHv3n5SmNwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 The video up above is my final demo video, and shows the final widgets in action.
 

@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "City of Edmonton"
+date:   2017-12-01
+img: img/portfolio/EDM_logo_Colour_S.png
+external_url: http://www.edmonton.ca
+modalID: modalEdmonton
+category: City of Edmonton Internship
+---
+From May 2017 to December 2017, I worked as a Jr. Enterprise Application Analyst at the City of Edmonton. This internship had me working with the Knowledge and Change Management team, where I interacted with many different business areas in the City of Edmonton.
+
+During my time there, I collaborated with a teammate to develop a Google Chrome extension for an organizational support chat system called [Jazz Chat](https://github.com/coe-google-apps-support/jazz-chrome). The Chrome extension was made using HTML, CSS and Javascript. It used the LiveChat service.
+
+<a href="https://github.com/coe-google-apps-support/jazz-chrome"><img src="{{ site.baseurl }}/img/portfolio/jazz-chat.png" class="img-responsive" alt="" style="margin: auto; background: black; height: 200px;"></a>
+
+I also was able to write some Google Apps Script code in Google Sheets, in order to assist with team organization and ease of use.

@@ -13,7 +13,13 @@
                     <div class="modal-body">
                         <h2>{{ post.title }}</h2>
                         <hr class="star-primary">
+                        {% if post.external_url %}
+                        <a href="{{ post.external_url }}">
+                        {% endif %}
                         <img src="{{ site.baseurl }}/{{ post.img }}" class="img-responsive img-centered" alt="">
+                        {% if post.external_url %}
+                        </a>
+                        {% endif %}
                         {{ post.content }}
                         <ul class="list-inline item-details">
                             <li>Category:

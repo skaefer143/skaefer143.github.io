@@ -17,7 +17,7 @@ to courses based on a preference assignment algorithm.
 To view a demonstration of all features developed during the course, please
 watch the video below:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_AZMiOHATrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe width="100%" height="315" src="https://www.youtube.com/embed/_AZMiOHATrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I was involved in programming the spreadsheet import feature and course
 assignment view, as well as communicating with clients, setting up a server

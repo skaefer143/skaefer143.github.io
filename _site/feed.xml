@@ -5,8 +5,8 @@
     <description>Hey! I'm a recent Computing Science graduate from the University of Alberta. Check out some of the projects I've been a part of!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Jan 2019 15:48:36 -0700</pubDate>
-    <lastBuildDate>Wed, 09 Jan 2019 15:48:36 -0700</lastBuildDate>
+    <pubDate>Wed, 09 Jan 2019 17:38:19 -0700</pubDate>
+    <lastBuildDate>Wed, 09 Jan 2019 17:38:19 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -21,7 +21,7 @@ with Javascript, HTML, a Django backend, and the Javascript library selectize.js
 
 &lt;p&gt;&lt;a href=&quot;https://reviews.reviewboard.org/users/skaefer143/&quot;&gt;These&lt;/a&gt; are all the patches I’ve submitted towards Review Board.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zHv3n5SmNwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zHv3n5SmNwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;The video up above is my final demo video, and shows the final widgets in action.&lt;/p&gt;
 
@@ -48,7 +48,7 @@ to courses based on a preference assignment algorithm.&lt;/p&gt;
 &lt;p&gt;To view a demonstration of all features developed during the course, please
 watch the video below:&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_AZMiOHATrM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_AZMiOHATrM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;I was involved in programming the spreadsheet import feature and course
 assignment view, as well as communicating with clients, setting up a server
@@ -64,18 +64,21 @@ to host the application, and initializing continuous integration with Travis CI.
       </item>
     
       <item>
-        <title>Submarine</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>City of Edmonton</title>
+        <description>&lt;p&gt;From May 2017 to December 2017, I worked as a Jr. Enterprise Application Analyst at the City of Edmonton. This internship had me working with the Knowledge and Change Management team, where I interacted with many different business areas in the City of Edmonton.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;During my time there, I collaborated with a teammate to develop a Google Chrome extension for an organizational support chat system called &lt;a href=&quot;https://github.com/coe-google-apps-support/jazz-chrome&quot;&gt;Jazz Chat&lt;/a&gt;. The Chrome extension was made using HTML, CSS and Javascript. It used the LiveChat service.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://github.com/coe-google-apps-support/jazz-chrome&quot;&gt;&lt;img src=&quot;/img/portfolio/jazz-chat.png&quot; class=&quot;img-responsive&quot; alt=&quot;&quot; style=&quot;margin: auto; background: black; height: 200px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I also was able to write some Google Apps Script code in Google Sheets, in order to assist with team organization and ease of use.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Feb 2016 13:08:10 -0700</pubDate>
-        <link>http://localhost:4000/design/2016/02/01/submarine.html</link>
-        <guid isPermaLink="true">http://localhost:4000/design/2016/02/01/submarine.html</guid>
+        <pubDate>Fri, 01 Dec 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/city%20of%20edmonton%20internship/2017/12/01/edmonton.html</link>
+        <guid isPermaLink="true">http://localhost:4000/city%20of%20edmonton%20internship/2017/12/01/edmonton.html</guid>
         
         
-        <category>Design</category>
+        <category>City of Edmonton Internship</category>
         
       </item>
     
