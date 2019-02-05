@@ -6,7 +6,7 @@ img: img/portfolio/CAST-compressed.png
 modalID: modalCAST
 category: University of Alberta
 ---
-In CMPUT 401 at the University of Alberta, I worked alongside 4 other students
+In CMPUT 401 at the University of Alberta, I worked alongside four other students
 to create a web application named CAST for the Faculty of Nursing. It was
 developed with Django as framework, using PostgreSQL as a database.
 
